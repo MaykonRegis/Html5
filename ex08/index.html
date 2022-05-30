@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <h1>Formataçoes</h1>
+    <P>O comando <code>doucment.getElementByid('teste')</code> e escrito em javaScrip</P>
+    <pre>
+        var res = window.document.getElementById('res')
+        var ano = parseInt(window.prompt("Qual ano voçe quer verificar"))
+
+        if(ano % 4 == 0){
+            res.innerHTML += `O ano de ${ano} e BISSEXTO<BR>`
+        }else{
+            res.innerHTML += `O ano de ${ano} nao e BISSEXTO<BR>`
+        }
+    </pre>>
+    <h2>citaçoes</h2>
+    <P>como diria um pai de uma amigo: <q>o computador e um burro muito rapido</q></P>
+    <h2>citaçoes completas</h2>
+    <P>Segundo fulano, no seu livro de html</P>
+    <blockquote cite="url">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate repudiandae asperiores nulla, reiciendis ex accusamus eligendi dicta non vitae voluptatibus rem facere eum alias, pariatur totam consectetur optio inventore sit!</blockquote>
+
+    <h2>Abreviaçoes</h2>
+    <P>estou gostando de <abbr title="HyperText Markup Sheets">html</abbr><abbr title="Cascading Style Sheets">css</abbr></P>
+</body>
+</html>

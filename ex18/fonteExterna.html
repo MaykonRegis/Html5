@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonte Externar</title>
+    <style>
+        /*SITES PARA BAIXAR DE FONTES DAFONT.COM*/
+        @font-face {
+            font-family: 'Love';
+            src: url('Feeling\ Lovely.ttf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*TIPOS DE FORMAT
+                - opentype(otf)
+                - truetype(ttf)
+                - embedded-opentype
+                - truetype-aat
+                - svg
+            */
+        }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h1 {
+            font-family: 'Love';
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit ipsam, incidunt dicta blanditiis recusandae eos, rem cupiditate mollitia voluptate eum dignissimos! Quos quia perspiciatis quisquam voluptatum, ratione porro aliquam aperiam!</p>
+</body>
+</html>

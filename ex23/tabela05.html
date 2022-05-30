@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colgrup</title>
+    <STYle>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 700px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        th {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+
+        .destaque {
+            background-color: blueviolet;
+        }
+
+        .cnome {
+            background-color: chartreuse;
+        }
+    </STYle>
+</head>
+<body>
+    <h1>Mesclagem de tabela</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <thead>
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="colgroup">Idade</th>
+                <th>Profissão</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ana Maria Santos</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr class="destaque">
+                <td>Ana Maria Santos</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Ana Maria Santos</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td>Ana Maria Santos</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Vingadores</td>
+            </tr>
+           
+        </tbody>
+
+
+    </table>
+</body>
+</html>
