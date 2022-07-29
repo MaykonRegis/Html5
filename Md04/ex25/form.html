@@ -7,8 +7,17 @@
     <title>Formulario</title>
 </head>
 <body>
-    Nome: <input type="text" name="nome" id="nome" placeholder="Seu nome">
-    Idade: <input type="date" name="idade" id="idade" placeholder="00/00/0000">
-    <input type="subimit" id="cad" name="cad" value="Cadastro">
+    <form action="cadastro.php">
+        <label for="nome">
+            Nome: <input type="text" name="nome" id="nome" placeholder="Seu nome">
+        </label>
+        <label for="idade">
+            Idade: <input type="date" name="idade" id="idade" placeholder="00/00/0000">
+        </label>
+        
+        <input type="submit" id="cad" name="cad" value="Cadastro">
+
+    </form>
+   
 </body>
 </html>
