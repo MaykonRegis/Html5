@@ -18,7 +18,7 @@ header h1 {
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
 menu li {
@@ -37,6 +37,21 @@ menu a {
 
 menu a:hover {
     background-color: rgb(152, 153, 153);
+}
+
+span {
+    background-color: black;
+    width: 100vw;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+span:hover {
+    background-color: white;
+    color: black;
 }
 
 main {
